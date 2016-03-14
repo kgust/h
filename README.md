@@ -1,9 +1,9 @@
 # H is a library that was created by the author of _A Year Without jQuery_
 
-[A Year Without jQuery](http://blog.wearecolony.com/a-year-without-jquery/)
+## [A Year Without jQuery](http://blog.wearecolony.com/a-year-without-jquery/)
 
-Dropping the trusted workhorse from our front-end in 2014 has led to a faster, leaner platform
-– March 2nd, 2016
+    Dropping the trusted workhorse from our front-end in 2014 has led to a faster, leaner platform
+    – March 2nd, 2016
 
 Since writing these in 2014, I’ve sinced learned that `h.closestParent()`
 now has a native equivalent in the form of `Element.closest()`, and
@@ -77,6 +77,7 @@ container.addEventListener('click', function(e) {
         button.classList.add('active');
     }
 });
+```
 
 ## UI Component Example
 
